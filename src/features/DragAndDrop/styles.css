@@ -1,0 +1,30 @@
+.dndContainer {
+  text-align: center;
+}
+
+.draggable {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 10px auto;
+}
+
+.inProgress {
+  position: absolute;
+  width: 200px;
+  min-height: 160px;
+  left: 0;
+  top: 10;
+  background-color: #EEEEEE;
+  border-right: 2px dotted red;
+}
+
+.completed {
+  position: absolute;
+  width: 200px;
+  min-height: 160px;
+  right: 0;
+  top: 10;
+  background-color: #9E9E9E;
+  border-left: 2px dotted red;
+}
